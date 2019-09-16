@@ -11,6 +11,7 @@ import java.util.HashMap;
 public class Test {
     public static void main(String[] args) {
         HashMap<Object, String> map = new HashMap<>();
+        System.out.println("test");
         User u1 = new User("1", "小明");
         User u2 = new User("2", "小红");
         map.put(u1, "u1");
